@@ -12,6 +12,8 @@ Através do emissor de Nota Fiscal da WebmaniaBR®, você conta com a emissão e
 
 ## Exemplos
 
+Desenvolvimento baseado na classe nativa [NET::Http](http://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html).
+
 - **statusSefaz**: Verifica se o Sefaz está Online ou Offline.
 - **validadeCertificado**: Verifica se o Certificado A1 é válido e quantos dias faltam para expirar.
 - **emissaoNotaFiscal**: Emissão da Nota Fiscal junto ao SEFAZ.
