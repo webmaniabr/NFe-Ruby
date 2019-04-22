@@ -4,8 +4,6 @@ require 'net/http'
 url = URI("https://webmaniabr.com/api/1/nfe/certificado/")
 
 http = Net::HTTP.new(url.host, url.port)
-http.use_ssl = true
-http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 
 request = Net::HTTP::Get.new(url)
 request["cache-control"] = 'no-cache'
